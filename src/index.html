@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Hero section -->
+    <main class="main">
+      <div class="container">
+        <header class="header">
+          <a class="header__link">Tetiana Zaporozhets</a>
+          <nav>
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__item-link" href="">services</a>
+              </li>
+              <li class="header__item">
+                <a class="header__item-link" href="">technologies</a>
+              </li>
+              <li class="header__item">
+                <a class="header__item-link" href="">portfolio</a>
+              </li>
+              <li class="header__item">
+                <a class="header__item-link" href="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Dropdown menu for language selection -->
+          <div class="header__dropdown">
+            <button class="button header__button">eng</button>
+            <ul class="header__dropdown-list">
+              <li><a href="#" data-lang="Eng">Eng</a></li>
+              <li><a href="#" data-lang="Ua">Ua</a></li>
+              <li><a href="#" data-lang="Rus">Rus</a></li>
+              <li><a href="#" data-lang="Pol">Pol</a></li>
+            </ul>
+          </div>
+        </header>
+        <div class="main__block">
+          <div class="main__text-block">
+            <h1 class="main__title">
+              Frontend <br />
+              Developer
+            </h1>
+            <div class="main__text-box">
+              <p class="main__text">
+                I am Tetiana – <span class="highlight">web-developer</span> with
+                a passion for creating beautiful and responsive websites.
+              </p>
+              <button class="button main__button">View My Work</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main image and decorative elements -->
+        <img
+          class="main__img"
+          src="img/main-img.png"
+          alt="Tetiana Zaporozhets"
+        />
+        <img class="main__bg-texts" src="img/main-bg-texts.png" alt="" />
+      </div>
+      <img class="main__gradient" src="img/main-gradient.png" alt="" />
+    </main>
+
+    <!-- Services section -->
+    <section class="container services">
+      <h2 class="subtitle services__subtitle">My Services</h2>
+      <div class="services__cards">
+        <div class="services__card">
+          <div class="services__card-header">
+            <img
+              class="services__icon"
+              src="img/icon-dev.svg"
+              alt="Icon Development"
+            />
+            <h4 class="services__card-subtitle">Website Development</h4>
+          </div>
+          <p>
+            I create websites based on your ready-made design. Whether it's a
+            landing page or a business card website, I will make it look great
+            and work smoothly on any device.
+          </p>
+        </div>
+        <div class="services__card services__card-item">
+          <div class="services__card-header">
+            <img
+              class="services__icon"
+              src="img/icon-design.svg"
+              alt="Icon Design"
+            />
+            <h4 class="services__card-subtitle">Web Design</h4>
+          </div>
+          <p>
+            I can design your website from scratch. I create modern, simple, and
+            user-friendly designs that match your brand and goals.
+          </p>
+        </div>
+        <div class="services__card">
+          <div class="services__card-header">
+            <img
+              class="services__icon"
+              src="img/icon-wordpress.svg"
+              alt="Icon Wordpress"
+            />
+            <h4 class="services__card-subtitle">WordPress Development</h4>
+          </div>
+          <p>
+            I build websites on WordPress, making them easy to update and
+            manage. It’s a great choice for blogs, small businesses, or
+            portfolios.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  <!-- Skills section -->
+    <section class="skills container">
+      <h2 class="subtitle skills__subtitle">Skills</h2>
+      <h4 class="skills__content-subtitle">
+        The skills, tools and technologies I use:
+      </h4>
+      <div class="skills__icons">
+        <img src="img/html-icon.svg" alt="HTML technology icon" />
+        <img src="img/css-icon.svg" alt="CSS technology icon" />
+        <img src="img/js-icon.svg" alt="JS technology icon" />
+        <img src="img/tailwindcss-icon.svg" alt="Tailwindcss technology icon" />
+        <img src="img/npm-icon.svg" alt="Npm technology icon" />
+        <img src="img/figma-icon.svg" alt="Figma technology icon" />
+        <img src="img/react-icon.svg" alt="React technology icon" />
+        <img src="img/webpack-icon.svg" alt="Webpack technology icon" />
+        <img src="img/git-icon.svg" alt="Git technology icon" />
+        <img src="img/wordpress-icon.svg" alt="Wordpress technology icon" />
+        <img src="img/scss-icon.svg" alt="SCSS technology icon" />
+      </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="subtitle">portfolio</h2>
+        <div class="portfolio__block">
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="img/work1.jpg" alt="Work" />
+            <h5 class="portfolio__box-text">Website Coding (HTML, CSS, JS)</h5>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="img/work1.jpg" alt="Work" />
+            <h5 class="portfolio__box-text">Website Coding (HTML, CSS, JS)</h5>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="img/work1.jpg" alt="Work" />
+            <h5 class="portfolio__box-text">Website Coding (HTML, CSS, JS)</h5>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="img/work1.jpg" alt="Work" />
+            <h5 class="portfolio__box-text">Website Coding (HTML, CSS, JS)</h5>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="img/work1.jpg" alt="Work" />
+            <h5 class="portfolio__box-text">Website Coding (HTML, CSS, JS)</h5>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="img/work1.jpg" alt="Work" />
+            <h5 class="portfolio__box-text">Website Coding (HTML, CSS, JS)</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact">
+      <div class="container contact__block">
+        <div class="contact__box"> 
+      <h3 class="contact__subtitle-gradient">
+        Do you have a project to discuss?
+      </h3>
+      <p class="contact__subtitle">Get in Touch</з>
+      <div class="contact__info">
+      <div class="contact__contact">
+        <h5 class="contact__info-subtitle">Contact </h5>
+        <a class="contact__link" href="mailto:web.smm.zty@gmail.com">web.smm.zty@gmail.com</a>
+        <a class="contact__link" href="tel:+48 537 190 115">+48 537 190 115</a>
+      </div>
+      <div class="contact__social">
+        <h5 class="contact__info-subtitle">Social Media</h5>
+        <div class="contact__social-icons">
+          <img src="img/facebook-icon.svg" alt="Facebook icon">
+          <img src="img/instagram-icon.svg" alt="Instagram icon">
+          <img src="img/whatsapp-icon.svg" alt="Whatsapp icon">
+          <img src="img/telegram-icon.svg" alt="Telegram icon">
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="contact__form-block">
+      <h5 class="contact__form-subtitle">Contact form</h5>
+
+      <!-- Form -->
+      <form class="contact__form" action="">
+        <div class="contact__form-box">
+          <label for="name">Name</label>
+        <input  name="name" type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="contact__form-box">
+          <label for="email">Email</label>
+        <input name="email" type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="contact__form-box">
+          <label for="message">Your message</label>
+        <textarea name="message" type="text" id="message" placeholder="Enter your message here"></textarea>
+        </div>
+        <button class="button contact__button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  </div>
+    </section>
+
+    <!-- Footer section -->
+     <footer class="footer container">
+<p class="footer__text">© 2024 – All rights reserved, web design and development - Tetiana Zaporozhets</p>
+     </footer>
+    <!-- JavaScript connection -->
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+$rose: #f42a8b;
+$blue: #1f89db;
+$white: #fff;
+$border-grey: #414a5a;
+$accent-rose: $rose;
+$accent-blue: $blue;
+
+$gradient: linear-gradient(90deg, $rose 0%, $blue 100%);
+$border-gradient: linear-gradient(to right, #f42a8b, #1f89db);
+
+$card-gradient: linear-gradient(
+  45deg,
+  rgba(20, 27, 42, 1) 0%,
+  rgba(14, 20, 30, 1) 100%
+);
+$drop-shadow: drop-shadow(0 0 10px rgba(166, 185, 200, 0.7));

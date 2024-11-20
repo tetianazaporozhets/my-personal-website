@@ -1,0 +1,17 @@
+.nav{
+  font-size: 23px;
+  background: #000;
+  &__list{
+    font-size: 12px;
+    color: blue;
+  }
+  &__item{
+    color: green;
+  }
+  &__link{
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
